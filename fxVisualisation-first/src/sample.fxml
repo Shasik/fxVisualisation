@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.control.Button?>
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+  <children>
+      <AnchorPane VBox.vgrow="ALWAYS">
+          <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true">
+              <image>
+                <Image url="background.jpg"/>
+              </image>
+          </ImageView>
+          <GridPane layoutX="29.0" layoutY="68.0" prefHeight="431.0" prefWidth="314.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="57.333343505859375" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="92.0" minHeight="10.0" prefHeight="92.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+              <children>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player1FirstTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 1" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="1" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player2FirstTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 2" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="2" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player3FirstTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 3" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="3" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player4FirstTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 4" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="4" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player5FirstTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 5" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="5" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Label fx:id="teamNameFirst" alignment="CENTER" contentDisplay="CENTER" prefHeight="61.0" prefWidth="314.0" text="Название команды" textFill="WHITE" GridPane.rowIndex="6" visible="false">
+                      <font>
+                          <Font name="System Bold Italic" size="35.0" />
+                      </font>
+                  </Label>
+                  <Label fx:id="totalFirstTeam" alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="321.0" text="Общий счёт" textFill="WHITE" visible="false">
+                      <font>
+                          <Font name="System Bold Italic" size="46.0" />
+                      </font>
+                  </Label>
+              </children>
+          </GridPane>
+          <GridPane layoutX="546.0" layoutY="68.0" prefHeight="431.0" prefWidth="314.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="57.333343505859375" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="92.0" minHeight="10.0" prefHeight="92.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+              <children>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player1SecondTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 1" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="1" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player2SecondTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 2" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="2" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player3SecondTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 3" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="3" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player4SecondTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 4" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="4" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Ellipse fill="#a121ff" opacity="0.3" radiusX="135.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" visible="false"/>
+                  <Label fx:id="player5SecondTeam" alignment="CENTER" prefHeight="51.0" prefWidth="348.0" text="Player 5" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="5" visible="false">
+                      <font>
+                          <Font name="System Bold" size="25.0" />
+                      </font>
+                  </Label>
+                  <Label fx:id="teamNameSecond" alignment="CENTER" contentDisplay="CENTER" prefHeight="61.0" prefWidth="314.0" text="Название команды" textFill="WHITE" GridPane.rowIndex="6" visible="false">
+                      <font>
+                          <Font name="System Bold Italic" size="35.0" />
+                      </font>
+                  </Label>
+                  <Label fx:id="totalSecondTeam" alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="314.0" text="Общий счёт" textFill="WHITE" visible="false">
+                      <font>
+                          <Font name="System Bold Italic" size="46.0" />
+                      </font>
+                  </Label>
+              </children>
+          </GridPane>
+          <Label fx:id="winTitle" alignment="CENTER" contentDisplay="TOP" layoutX="198.0" layoutY="145.0" prefHeight="138.0" prefWidth="515.0" textFill="WHITE" text="ПОБЕДИЛА КОМАНДА" visible="false">
+              <font>
+                  <Font name="System Bold Italic" size="43.0" />
+              </font>
+          </Label>
+          <Label fx:id="winTeamName" alignment="CENTER" layoutY="243.0" prefHeight="185.0" prefWidth="900.0" textFill="WHITE" text="ТАКАЯ-ТО!" visible="false">
+              <font>
+                  <Font name="System Bold Italic" size="96.0" />
+              </font>
+          </Label>
+          <Button fx:id="buttonForStart" layoutX="301.0" layoutY="269.0" mnemonicParsing="false" prefHeight="139.0" prefWidth="277.0" text="Начнём веселиться!">
+              <font>
+                  <Font name="System Bold Italic" size="22.0" />
+              </font>
+          </Button>
+          <Label fx:id="labelNotification1" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Label fx:id="labelNotification2" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Label fx:id="labelNotification3" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Label fx:id="labelNotification4" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Label fx:id="labelNotification5" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Label fx:id="labelNotification6" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Label fx:id="labelNotification7" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Label fx:id="labelNotification8" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Label fx:id="labelNotification9" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Label fx:id="labelNotification0" alignment="CENTER" layoutX="146.0" layoutY="200.0" prefHeight="151.0" prefWidth="601.0" textFill="WHITE" visible="false">
+              <font>
+                  <Font size="96.0" />
+              </font>
+          </Label>
+          <Button fx:id="buttonForStartGame1" layoutX="393.0" layoutY="432.0" mnemonicParsing="false" onAction="#startGame1" prefHeight="37.0" prefWidth="105.0" text="Start Game!" visible="false">
+              <font>
+                  <Font name="System Bold" size="15.0" />
+              </font>
+          </Button>
+          <Button fx:id="buttonForStartGame2" layoutX="393.0" layoutY="432.0" mnemonicParsing="false" onAction="#startGame2" prefHeight="37.0" prefWidth="105.0" text="Start Game!" visible="false">
+              <font>
+                  <Font name="System Bold" size="15.0" />
+              </font>
+          </Button>
+          <Button fx:id="results" layoutX="393.0" layoutY="432.0" mnemonicParsing="false" onAction="#results" prefHeight="37.0" prefWidth="105.0" text="Results!" visible="false">
+              <font>
+                  <Font name="System Bold" size="15.0" />
+              </font>
+          </Button>
+      </AnchorPane>
+  </children>
+</VBox>
